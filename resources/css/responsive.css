@@ -1,0 +1,67 @@
+@media screen and (max-width:1080px){
+    .row{
+        max-width: 90%;
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:1023px){
+    .description{
+        font-size: 140%;
+    }
+    .grid-process-wrapper{
+        grid-template-columns: 1fr 1fr;
+    }
+    .grid-portfolio-wrapper{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width:767px){
+    .grid-about-wrapper{
+        grid-template-columns: 1fr;
+    }
+    .grid-about-wrapper .paul-img{
+        text-align: center;
+    }
+    .paul{
+        width: 70%;
+    }
+    .description{
+        width: 100%;
+        text-align: justify;
+    }
+    .grid-experience-wrapper{
+        grid-template-columns: 1fr;
+    }
+    .grid-testimonial-wrapper{
+        grid-template-columns: 1fr;
+    }
+    .grid-testimonial-item{
+        width: 70%;
+        text-align: justify;
+    }
+    .grid-contact-wrapper{
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (max-width:480px){
+    h1{
+        font-size: 400%;
+    }
+    .hero-text-box span{
+        font-size: 148%;
+    }
+    .grid-process-wrapper{
+        grid-template-columns: 1fr;
+    }
+    .grid-portfolio-wrapper{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .grid-testimonial-item{
+        width: 100%;
+    }
+    .grid-portfolio-item:nth-child(5){
+        grid-column: 1/2;
+    }
+}
